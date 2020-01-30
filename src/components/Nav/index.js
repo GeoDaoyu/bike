@@ -3,6 +3,7 @@ import './index.less'
 import logo from '../../logo.svg';
 import MenuConfig from '../../config/menu';
 import { Menu } from 'antd';
+import { NavLink } from 'react-router-dom'
 
 const { SubMenu } = Menu;
 
@@ -23,7 +24,8 @@ export default class Nav extends React.Component {
         )
       }
       return (
-        <Menu.Item key={item.key}>{item.title}
+        <Menu.Item key={item.key}>
+          <NavLink to={item.key}>{item.title}</NavLink>
         </Menu.Item>
       )
     });
