@@ -19,6 +19,10 @@ export default [
         title: '加载动画',
         key: '/admin/ui/loading'
       },
+      {
+        title: '通知提示框',
+        key: '/admin/ui/notification'
+      },
     ]
   }
 ]
