@@ -12,8 +12,8 @@ export default [
         key: '/admin/ui/button'
       },
       {
-        title: '表格',
-        key: '/admin/ui/table'
+        title: '模态框',
+        key: '/admin/ui/modal'
       },
     ]
   }

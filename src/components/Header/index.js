@@ -14,7 +14,10 @@ export default class Header extends React.Component {
         time
       })
     }, 1000);
-    this.getWeather()
+    this.setState({
+      weather: ''
+    })
+    // this.getWeather()
   }
   getWeather() {
     const url = 'http://v.juhe.cn/weather/index?cityname=%E6%88%90%E9%83%BD&dtype=&format=&key=b2cf66d157ca387b7b32455ce282427e'
