@@ -15,6 +15,10 @@ export default [
         title: '模态框',
         key: '/admin/ui/modal'
       },
+      {
+        title: '加载动画',
+        key: '/admin/ui/loading'
+      },
     ]
   }
 ]

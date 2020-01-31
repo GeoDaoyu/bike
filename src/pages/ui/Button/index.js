@@ -13,14 +13,14 @@ export default class Btn extends React.Component {
   render() {
     return (
       <div className="btn">
-        <Card title="基础按钮">
+        <Card title="基础按钮" className="btn-wrap">
           <Button type="primary">Primary</Button>
           <Button>Default</Button>
           <Button type="dashed">Dashed</Button>
           <Button type="danger">Danger</Button>
           <Button type="link">Link</Button>
         </Card>
-        <Card title="loading按钮">
+        <Card title="loading按钮" className="btn-wrap">
           <Button type="primary" loading={this.state.loading} onClick={() => {
             this.setState({
               loading: true
