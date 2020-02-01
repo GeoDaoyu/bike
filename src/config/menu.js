@@ -24,5 +24,19 @@ export default [
         key: '/admin/ui/notification'
       },
     ]
-  }
+  },
+  {
+    title: '表单',
+    key: '/admin/form',
+    children: [
+      {
+        title: '登陆',
+        key: '/admin/form/login'
+      },
+      {
+        title: '注册',
+        key: '/admin/form/register'
+      },
+    ]
+  },
 ]
