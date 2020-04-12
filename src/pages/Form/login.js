@@ -49,7 +49,7 @@ class FormLogin extends React.Component {
                 />)
               }
             </Form.Item>
-            <Form.Item>
+            <Form.Item label="密码">
               {
                 getFieldDecorator('password', {
                   rules: [
